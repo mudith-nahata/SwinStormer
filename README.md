@@ -46,13 +46,13 @@ You can easily train and test the model by running the command below. If you wan
 The models were trained on one NVIDIA Tesla V100 GPU (8GB).
 
 ```
-python main.py --data_name rain100L --seed 0
+python train.py --data_name rain100L --seed 0
 ```
 
 ### Test Model
 Download the model from the link given at the bottom of the ReadMe or train the model before running this command:
 ```
-python main.py --data_name rain100H --model_file result/rain100H.pth
+python train.py --data_name rain100H --model_file result/rain100H.pth
 ```
 <br>
 
