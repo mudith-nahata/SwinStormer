@@ -40,7 +40,7 @@ ensure the directory structure looks like this:
 ## Usage
 
 You can easily train and test the model by running the command below. If you want to try other options, please refer to
-[utils.py](utils.py).
+[train.py](train.py).
 
 ### Train Model
 The models were trained on one NVIDIA Tesla V100 GPU (8GB).
